@@ -21,6 +21,13 @@
       animation: fadeIn 2s ease-in-out;
     }
 
+     .jar-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
     .jar {
       width: 480px;
       height: 630px;
@@ -73,6 +80,7 @@
 <body>
   <h1>💖 Happy Friendship Day, ANUSHREEEEEE 💖</h1>
 
+  <div class="jar-container">
   <div class="jar">
     <div class="note" style="top: 280px; left: 275px;" onclick="showMessage('You’re my safe space, always 💕')">💗</div>
     <div class="note" style="top: 400px; left: 165px;" onclick="showMessage('From dumb jokes to deep talks, you’re gold.😍')">💗</div>
@@ -80,6 +88,7 @@
     <div class="note" style="top: 265px; left: 182px;" onclick="showMessage('I’m so lucky to have someone like you to talk to everyday 💫')">💗</div>
     <div class="note" style="top: 330px; left: 150px;" onclick="showMessage('Your voice is my favorite sound 🎶')">💗</div>
     <div class="note" style="top: 340px; left: 235px;" onclick="showMessage('You’re not just a best friend, you’re a forever person 💌')">💗</div>
+  </div>
   </div>
 
   <div id="popup" class="popup"></div>
@@ -93,5 +102,6 @@
   </script>
 </body>
 </html>
+
 
 
